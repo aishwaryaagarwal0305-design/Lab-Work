@@ -1,0 +1,5 @@
+C=int(input("Enter temp in Celsius"))
+Fahrenheittemp1=((C*9/5)+32)
+Kelvintemp2=(C+273.15)
+print(Fahrenheittemp1)
+print(Kelvintemp2)
