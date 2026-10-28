@@ -3,14 +3,14 @@ s = input("Enter a string: ")
 vowels = consonants = digits = spaces = others = 0
 
 
-for r in s:
-    if r in "aeiou" and "AEIOU":
+for ch in s:
+    if ch in "aeiou" and "AEIOU":
         vowels = vowels + 1
-    elif r.isalpha():
+    elif ch.isalpha():
         consonants = consonants + 1
-    elif r.isdigit():
+    elif ch.isdigit():
         digits = digits + 1
-    elif r == " ":
+    elif ch == " ":
         spaces = spaces + 1
     else:
         others = others + 1
