@@ -15,3 +15,4 @@ if count == 0:
     print("Positions: -1")
 else:
     print("Positions:", positions.strip())
+    

@@ -25,3 +25,4 @@ elif total == 2 or total == 3:
     print("MODERATE")
 else:
     print("WEAK")
+    
