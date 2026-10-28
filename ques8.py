@@ -1,8 +1,8 @@
-s = input("Enter a string: ")
+str = input("Enter a string: ")
 
 result = ""
 
-for ch in s:
+for ch in str:
     if ch not in result:
         result = result + ch
 

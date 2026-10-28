@@ -1,11 +1,11 @@
-password = input("Enter password: ")
+p = input("Enter password: ")
 
 upper = 0
 lower = 0
 digit = 0
 special = 0
 
-for ch in password:
+for ch in p:
     if ch.isupper():
         upper = 1
     elif ch.islower():
@@ -17,7 +17,7 @@ for ch in password:
 
 total = upper + lower + digit + special
 
-if len(password) < 8:
+if len(p) < 8:
     print("WEAK")
 elif total == 4:
     print("STRONG")

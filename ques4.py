@@ -1,11 +1,11 @@
-s = input("Enter a string: ")
+a = input("Enter a string: ")
 ch = input("Enter a character: ")
 
 count = 0
 positions = ""
 
-for i in range(len(s)):
-    if s[i] == ch:
+for i in range(len(a)):
+    if a[i] == ch:
         count = count + 1
         positions = positions + str(i) + " "
 
